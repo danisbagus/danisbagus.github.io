@@ -12397,3 +12397,10 @@ section.resume-section .resume-card {
     padding-bottom: 5rem;
   }
 }
+
+@media print {
+  section {
+    break-before: page; /* Standard modern browser */
+    page-break-before: always; /* Support browser lama */
+  }
+}
