@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #f8f9fa;
 }
 
 *,
@@ -12379,9 +12379,9 @@ section.resume-section .text-lowercase {
 
 section.resume-section .resume-card {
   border-left: 5px solid var(--primary-color);
-  border-radius: 12px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
 }
-
 
 @media (min-width: 768px) {
   section.resume-section {
